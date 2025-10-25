@@ -1,0 +1,60 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Mail, Github, Linkedin, FileText } from "lucide-react";
+
+export const Contact = () => {
+  return (
+    <section className="py-24">
+      <div className="container mx-auto px-4">
+        <div className="max-w-3xl mx-auto">
+          <Card className="border-2 shadow-[var(--shadow-card)]">
+            <CardHeader className="text-center">
+              <CardTitle className="text-4xl mb-4">Let's Work Together</CardTitle>
+              <CardDescription className="text-lg">
+                I'm actively seeking opportunities in AI/ML engineering roles. 
+                Let's connect and discuss how I can contribute to your team.
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <Button variant="default" size="lg" className="w-full" asChild>
+                  <a href="mailto:contact@example.com">
+                    <Mail className="mr-2 h-5 w-5" />
+                    Email Me
+                  </a>
+                </Button>
+                <Button variant="outline" size="lg" className="w-full" asChild>
+                  <a href="#" download>
+                    <FileText className="mr-2 h-5 w-5" />
+                    Download Resume
+                  </a>
+                </Button>
+                <Button variant="outline" size="lg" className="w-full" asChild>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <Github className="mr-2 h-5 w-5" />
+                    GitHub
+                  </a>
+                </Button>
+                <Button variant="outline" size="lg" className="w-full" asChild>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="mr-2 h-5 w-5" />
+                    LinkedIn
+                  </a>
+                </Button>
+              </div>
+
+              <div className="mt-8 p-6 bg-muted/50 rounded-lg">
+                <h3 className="font-semibold text-lg mb-3">Career Objective</h3>
+                <p className="text-muted-foreground">
+                  Seeking an AI/ML Engineer position where I can apply my bootcamp training and project experience 
+                  to develop innovative solutions. Eager to contribute to cutting-edge projects while continuing 
+                  to expand my expertise in deep learning, NLP, and production ML systems.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    </section>
+  );
+};
