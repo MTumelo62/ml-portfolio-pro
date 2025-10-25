@@ -12,13 +12,13 @@ export const Hero = () => {
           {/* Intro */}
           <div className="space-y-4 animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              AI/ML Engineer
+              IT Developer & Support Specialist
               <span className="block mt-2 bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--secondary))] bg-clip-text text-transparent">
-                Building Intelligent Solutions
+                Building Innovative Solutions
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Transforming complex data into actionable insights through advanced machine learning and artificial intelligence
+              Creating web and mobile applications while delivering exceptional technical support through diverse IT expertise and AI-powered automation
             </p>
           </div>
 

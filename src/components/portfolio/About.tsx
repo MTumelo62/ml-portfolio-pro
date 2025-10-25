@@ -21,7 +21,8 @@ export const About = () => {
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Education</h3>
                 <p className="text-muted-foreground text-sm">
-                  AI/ML Bootcamp Graduate
+                  Advanced Digital Skills IT Programme (2025)<br/>
+                  NC: IT Systems Development NQF Level 5 (2020)
                 </p>
               </CardContent>
             </Card>
@@ -33,7 +34,7 @@ export const About = () => {
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Focus Areas</h3>
                 <p className="text-muted-foreground text-sm">
-                  Deep Learning & NLP
+                  AI Tools & Web/Mobile Development
                 </p>
               </CardContent>
             </Card>
@@ -43,9 +44,9 @@ export const About = () => {
                 <div className="mx-auto w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Certifications</h3>
+                <h3 className="font-semibold text-lg mb-2">Experience</h3>
                 <p className="text-muted-foreground text-sm">
-                  TensorFlow & AWS ML
+                  CAPACITI, CAPENEXIS, Capricorn College
                 </p>
               </CardContent>
             </Card>
@@ -55,18 +56,20 @@ export const About = () => {
             <CardContent className="pt-6">
               <div className="prose prose-lg max-w-none text-foreground">
                 <p className="text-lg leading-relaxed mb-4">
-                  I'm a passionate AI/ML engineer with expertise in building scalable machine learning solutions. 
-                  Through intensive bootcamp training, I've developed a strong foundation in deep learning, 
-                  natural language processing, and computer vision.
+                  I'm a dedicated IT professional currently enrolled in the Advanced Digital Skills IT Programme (2025), 
+                  with a strong foundation in systems development (NQF Level 5, 2020). My expertise spans web and mobile 
+                  development, AI automation tools, and comprehensive IT support.
                 </p>
                 <p className="text-lg leading-relaxed mb-4">
-                  My approach combines solid theoretical understanding with practical implementation skills. 
-                  I specialize in transforming complex datasets into actionable insights and deploying production-ready 
-                  ML models that drive real business value.
+                  With hands-on experience at CAPACITI, CAPENEXIS Data Solutions as a Facilitator Assistant (2020-2023), 
+                  and Capricorn College for TVET as an IT Technician (2018), I bring a unique blend of technical skills 
+                  and practical problem-solving abilities. I excel in time management, communication, teamwork, and 
+                  emotional intelligence.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Currently seeking opportunities to contribute to innovative AI projects where I can apply my skills 
-                  in model development, optimization, and deployment while continuing to grow as an ML engineer.
+                  I'm passionate about leveraging modern technologies including HTML5, CSS, WordPress, JavaScript, Python, 
+                  and Java, alongside AI tools like Google AI and ChatGPT to create innovative solutions and provide 
+                  excellent technical support.
                 </p>
               </div>
             </CardContent>

@@ -1,27 +1,27 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brain, Code, Database, LineChart } from "lucide-react";
+import { Globe, Code, Brain, Wrench } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Machine Learning",
-    icon: Brain,
-    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "XGBoost"]
+    title: "Web Development",
+    icon: Globe,
+    skills: ["HTML5", "CSS", "WordPress", "Responsive Design"]
   },
   {
-    title: "Programming",
+    title: "Mobile Development",
     icon: Code,
-    skills: ["Python", "JavaScript", "TypeScript", "SQL", "R"]
+    skills: ["JavaScript", "Python", "Java", "App Development"]
   },
   {
-    title: "Data Engineering",
-    icon: Database,
-    skills: ["Pandas", "NumPy", "Apache Spark", "PostgreSQL", "MongoDB"]
+    title: "AI & Automation",
+    icon: Brain,
+    skills: ["Google AI", "ChatGPT", "Machine Learning", "Automation Tools"]
   },
   {
-    title: "Analytics & Visualization",
-    icon: LineChart,
-    skills: ["Matplotlib", "Seaborn", "Plotly", "Tableau", "Power BI"]
+    title: "IT Support",
+    icon: Wrench,
+    skills: ["Technical Support", "Network Configuration", "Troubleshooting", "IT Systems"]
   }
 ];
 
@@ -30,9 +30,9 @@ export const Skills = () => {
     <section className="py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Technical Skills</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Technical Proficiencies</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive expertise across the AI/ML technology stack
+            Diverse skill set spanning development, AI tools, and IT support
           </p>
         </div>
 

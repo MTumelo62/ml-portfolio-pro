@@ -11,7 +11,7 @@ export const Contact = () => {
             <CardHeader className="text-center">
               <CardTitle className="text-4xl mb-4">Let's Work Together</CardTitle>
               <CardDescription className="text-lg">
-                I'm actively seeking opportunities in AI/ML engineering roles. 
+                I'm actively seeking opportunities in IT development and support roles. 
                 Let's connect and discuss how I can contribute to your team.
               </CardDescription>
             </CardHeader>
@@ -46,9 +46,10 @@ export const Contact = () => {
               <div className="mt-8 p-6 bg-muted/50 rounded-lg">
                 <h3 className="font-semibold text-lg mb-3">Career Objective</h3>
                 <p className="text-muted-foreground">
-                  Seeking an AI/ML Engineer position where I can apply my bootcamp training and project experience 
-                  to develop innovative solutions. Eager to contribute to cutting-edge projects while continuing 
-                  to expand my expertise in deep learning, NLP, and production ML systems.
+                  Seeking an IT development or technical support position where I can apply my diverse skill set 
+                  in web/mobile development, AI tools, and IT support. Eager to contribute to innovative projects 
+                  while continuing to expand my expertise in emerging technologies and deliver exceptional results 
+                  through strong problem-solving, teamwork, and communication skills.
                 </p>
               </div>
             </CardContent>
