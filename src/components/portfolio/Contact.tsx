@@ -18,7 +18,7 @@ export const Contact = () => {
             <CardContent>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Button variant="default" size="lg" className="w-full" asChild>
-                  <a href="mailto:contact@example.com">
+                  <a href="mailto:malebanetumelo62@gmail.com">
                     <Mail className="mr-2 h-5 w-5" />
                     Email Me
                   </a>
@@ -30,13 +30,13 @@ export const Contact = () => {
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="w-full" asChild>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/MTumelo62" target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-5 w-5" />
                     GitHub
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="w-full" asChild>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/malebane-tumelo-b9b7a71a1/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-2 h-5 w-5" />
                     LinkedIn
                   </a>

@@ -12,7 +12,10 @@ export const Hero = () => {
           {/* Intro */}
           <div className="space-y-4 animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              IT Developer & Support Specialist
+              Tumelo Malebane
+              <span className="block mt-2 text-3xl md:text-4xl text-muted-foreground font-normal">
+                IT Developer & Support Specialist
+              </span>
               <span className="block mt-2 bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--secondary))] bg-clip-text text-transparent">
                 Building Innovative Solutions
               </span>
@@ -36,7 +39,7 @@ export const Hero = () => {
           {/* Social Links */}
           <div className="flex gap-4 justify-center pt-8">
             <a
-              href="https://github.com"
+              href="https://github.com/MTumelo62"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:bg-primary hover:text-primary-foreground transition-all duration-300"
@@ -44,7 +47,7 @@ export const Hero = () => {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/malebane-tumelo-b9b7a71a1/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:bg-primary hover:text-primary-foreground transition-all duration-300"
@@ -52,7 +55,7 @@ export const Hero = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:malebanetumelo62@gmail.com"
               className="p-3 rounded-full border border-border hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               <Mail className="h-5 w-5" />
