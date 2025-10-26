@@ -6,12 +6,12 @@ const skillCategories = [
   {
     title: "Web Development",
     icon: Globe,
-    skills: ["HTML5", "CSS", "WordPress", "Responsive Design"]
+    skills: ["HTML5", "CSS", "WordPress"]
   },
   {
     title: "Mobile Development",
     icon: Code,
-    skills: ["JavaScript", "Python", "Java", "App Development"]
+    skills: ["JavaScript", "Python", "Java", "C#", "C++"]
   },
   {
     title: "AI & Automation",
@@ -21,7 +21,7 @@ const skillCategories = [
   {
     title: "IT Support",
     icon: Wrench,
-    skills: ["Technical Support", "Network Configuration", "Troubleshooting", "IT Systems"]
+    skills: ["Technical Support", "Network Configuration", "Troubleshooting"]
   }
 ];
 
