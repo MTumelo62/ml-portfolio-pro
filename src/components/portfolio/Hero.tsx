@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import profileImage from "@/assets/profile.jpg";
 
 export const Hero = () => {
   return (
@@ -9,6 +11,14 @@ export const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
+          {/* Profile Photo */}
+          <div className="flex justify-center animate-fade-in">
+            <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-primary/20 shadow-2xl">
+              <AvatarImage src={profileImage} alt="Tumelo Malebane" />
+              <AvatarFallback>TM</AvatarFallback>
+            </Avatar>
+          </div>
+          
           {/* Intro */}
           <div className="space-y-4 animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
