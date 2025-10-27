@@ -6,16 +6,14 @@ const projects = [
     description: "Comprehensive car diagnostics application for real-time vehicle monitoring and troubleshooting",
     image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
     technologies: ["Python", "JavaScript", "Mobile Development", "Diagnostics"],
-    githubUrl: "https://github.com/MTumelo62",
-    liveUrl: "#"
+    githubUrl: "https://github.com/MTumelo62"
   },
   {
     title: "Study Buddy",
     description: "Educational platform leveraging AI to enhance learning experiences and study efficiency",
     image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
     technologies: ["AI Tools", "ChatGPT", "Web Development", "Education"],
-    githubUrl: "https://github.com/MTumelo62",
-    liveUrl: "#"
+    githubUrl: "https://github.com/MTumelo62"
   },
   {
     title: "Swift Analysis Tool",

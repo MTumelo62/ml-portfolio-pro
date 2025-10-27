@@ -48,7 +48,7 @@ export const ProjectCard = ({ title, description, image, technologies, githubUrl
             </a>
           </Button>
         )}
-        {liveUrl && (
+        {liveUrl && liveUrl !== "#" && (
           <Button variant="default" size="sm" asChild>
             <a href={liveUrl} target="_blank" rel="noopener noreferrer">
               <ExternalLink className="mr-2 h-4 w-4" />
