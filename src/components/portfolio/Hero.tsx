@@ -37,12 +37,16 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button variant="hero" size="lg" className="group">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="group"
+              onClick={() => {
+                document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               View Projects
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button variant="outline" size="lg">
-              Download Resume
             </Button>
           </div>
 
