@@ -16,11 +16,17 @@ export const Contact = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 <Button variant="default" size="lg" className="w-full" asChild>
                   <a href="mailto:malebanetumelo62@gmail.com">
                     <Mail className="mr-2 h-5 w-5" />
                     Email Me
+                  </a>
+                </Button>
+                <Button variant="outline" size="lg" className="w-full" asChild>
+                  <a href="/Malebane_T_CV.pdf" download="Malebane_T_CV.pdf">
+                    <FileText className="mr-2 h-5 w-5" />
+                    Resume
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="w-full" asChild>

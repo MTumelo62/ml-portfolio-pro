@@ -48,6 +48,11 @@ export const Hero = () => {
               View Projects
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a href="/Malebane_T_CV.pdf" download="Malebane_T_CV.pdf">
+                Download Resume
+              </a>
+            </Button>
           </div>
 
           {/* Social Links */}
