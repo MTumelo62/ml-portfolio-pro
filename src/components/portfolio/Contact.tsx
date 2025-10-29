@@ -23,11 +23,22 @@ export const Contact = () => {
                     Email Me
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="w-full" asChild>
-                  <a href="/Malebane_T_CV.pdf" download="Malebane_T_CV.pdf">
-                    <FileText className="mr-2 h-5 w-5" />
-                    Resume
-                  </a>
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const link = document.createElement('a');
+                    link.href = '/Malebane_T_CV.pdf';
+                    link.download = 'Malebane_T_CV.pdf';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}
+                >
+                  <FileText className="mr-2 h-5 w-5" />
+                  Resume
                 </Button>
                 <Button variant="outline" size="lg" className="w-full" asChild>
                   <a href="https://github.com/MTumelo62" target="_blank" rel="noopener noreferrer">

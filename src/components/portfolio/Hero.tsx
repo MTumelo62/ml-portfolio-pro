@@ -48,10 +48,20 @@ export const Hero = () => {
               View Projects
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="lg" asChild>
-              <a href="/Malebane_T_CV.pdf" download="Malebane_T_CV.pdf">
-                Download Resume
-              </a>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={(e) => {
+                e.preventDefault();
+                const link = document.createElement('a');
+                link.href = '/Malebane_T_CV.pdf';
+                link.download = 'Malebane_T_CV.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
+            >
+              Download Resume
             </Button>
           </div>
 
