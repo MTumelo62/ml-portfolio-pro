@@ -27,14 +27,24 @@ export const Contact = () => {
                   variant="outline" 
                   size="lg" 
                   className="w-full"
-                  onClick={(e) => {
+                  onClick={async (e) => {
                     e.preventDefault();
-                    const link = document.createElement('a');
-                    link.href = '/Malebane_T_CV.pdf';
-                    link.download = 'Malebane_T_CV.pdf';
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
+                    try {
+                      const res = await fetch('/Malebane_T_CV.pdf');
+                      const blob = await res.blob();
+                      const url = URL.createObjectURL(blob);
+                      const link = document.createElement('a');
+                      link.href = url;
+                      link.download = 'Malebane_T_CV.pdf';
+                      link.target = '_blank';
+                      link.rel = 'noopener noreferrer';
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                      URL.revokeObjectURL(url);
+                    } catch (err) {
+                      window.open('/Malebane_T_CV.pdf', '_blank', 'noopener,noreferrer');
+                    }
                   }}
                 >
                   <FileText className="mr-2 h-5 w-5" />
