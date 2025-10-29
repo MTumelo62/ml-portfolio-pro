@@ -17,7 +17,7 @@ const projects = [
     technologies: ["AI Tools", "ChatGPT", "Web Development", "Education"],
     githubUrl: "https://github.com/MTumelo62",
     liveUrl: "https://ai-study-buddyv2-0.vercel.app/",
-    documentationUrl: "https://ai-study-buddyv2-0.vercel.app/docs"
+    documentationUrl: "/AI_Study_Buddy_Technical_Documentation.pdf"
   },
   {
     title: "Swift Analysis Tool",
@@ -26,7 +26,7 @@ const projects = [
     technologies: ["Web Development", "Data Analysis", "JavaScript", "Analytics"],
     githubUrl: "https://github.com/MTumelo62",
     liveUrl: "https://swift-analysis-tool.lovable.app/",
-    documentationUrl: "https://swift-analysis-tool.lovable.app/docs"
+    documentationUrl: "/Swift_Analysis_Documentation.pdf"
   }
 ];
 
