@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, FileText } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
@@ -10,9 +10,10 @@ interface ProjectCardProps {
   technologies: string[];
   githubUrl?: string;
   liveUrl?: string;
+  documentationUrl?: string;
 }
 
-export const ProjectCard = ({ title, description, image, technologies, githubUrl, liveUrl }: ProjectCardProps) => {
+export const ProjectCard = ({ title, description, image, technologies, githubUrl, liveUrl, documentationUrl }: ProjectCardProps) => {
   return (
     <Card className="group hover:shadow-[var(--shadow-card)] transition-all duration-300 overflow-hidden border-border">
       {/* Project Image */}
@@ -39,7 +40,7 @@ export const ProjectCard = ({ title, description, image, technologies, githubUrl
         </div>
       </CardContent>
 
-      <CardFooter className="gap-3">
+      <CardFooter className="gap-3 flex-wrap">
         {githubUrl && (
           <Button variant="outline" size="sm" asChild>
             <a href={githubUrl} target="_blank" rel="noopener noreferrer">
@@ -53,6 +54,14 @@ export const ProjectCard = ({ title, description, image, technologies, githubUrl
             <a href={liveUrl} target="_blank" rel="noopener noreferrer">
               <ExternalLink className="mr-2 h-4 w-4" />
               Live Demo
+            </a>
+          </Button>
+        )}
+        {documentationUrl && (
+          <Button variant="outline" size="sm" asChild>
+            <a href={documentationUrl} target="_blank" rel="noopener noreferrer" download>
+              <FileText className="mr-2 h-4 w-4" />
+              Documentation
             </a>
           </Button>
         )}

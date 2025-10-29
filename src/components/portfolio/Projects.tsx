@@ -7,7 +7,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
     technologies: ["Python", "JavaScript", "Mobile Development", "Diagnostics"],
     githubUrl: "https://github.com/MTumelo62",
-    liveUrl: "https://tm-diagnostics.vercel.app/"
+    liveUrl: "https://tm-diagnostics.vercel.app/",
+    documentationUrl: "https://tm-diagnostics.vercel.app/docs"
   },
   {
     title: "Study Buddy",
@@ -15,7 +16,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
     technologies: ["AI Tools", "ChatGPT", "Web Development", "Education"],
     githubUrl: "https://github.com/MTumelo62",
-    liveUrl: "https://ai-study-buddyv2-0.vercel.app/"
+    liveUrl: "https://ai-study-buddyv2-0.vercel.app/",
+    documentationUrl: "https://ai-study-buddyv2-0.vercel.app/docs"
   },
   {
     title: "Swift Analysis Tool",
@@ -23,7 +25,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
     technologies: ["Web Development", "Data Analysis", "JavaScript", "Analytics"],
     githubUrl: "https://github.com/MTumelo62",
-    liveUrl: "https://swift-analysis-tool.lovable.app/"
+    liveUrl: "https://swift-analysis-tool.lovable.app/",
+    documentationUrl: "https://swift-analysis-tool.lovable.app/docs"
   }
 ];
 
