@@ -14,6 +14,27 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard = ({ title, description, image, technologies, githubUrl, liveUrl, documentationUrl }: ProjectCardProps) => {
+  const handleDocumentationDownload = async () => {
+    if (!documentationUrl) return;
+    
+    try {
+      const response = await fetch(documentationUrl);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = documentationUrl.split('/').pop() || 'documentation.pdf';
+      link.target = '_blank';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Download failed:', error);
+      window.open(documentationUrl, '_blank');
+    }
+  };
+
   return (
     <Card className="group hover:shadow-[var(--shadow-card)] transition-all duration-300 overflow-hidden border-border">
       {/* Project Image */}
@@ -58,11 +79,9 @@ export const ProjectCard = ({ title, description, image, technologies, githubUrl
           </Button>
         )}
         {documentationUrl && (
-          <Button variant="outline" size="sm" asChild>
-            <a href={documentationUrl} target="_blank" rel="noopener noreferrer" download>
-              <FileText className="mr-2 h-4 w-4" />
-              Documentation
-            </a>
+          <Button variant="outline" size="sm" onClick={handleDocumentationDownload}>
+            <FileText className="mr-2 h-4 w-4" />
+            Documentation
           </Button>
         )}
       </CardFooter>
