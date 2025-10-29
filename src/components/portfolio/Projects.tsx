@@ -8,7 +8,7 @@ const projects = [
     technologies: ["Python", "JavaScript", "Mobile Development", "Diagnostics"],
     githubUrl: "https://github.com/MTumelo62",
     liveUrl: "https://tm-diagnostics.vercel.app/",
-    documentationUrl: "https://tm-diagnostics.vercel.app/docs"
+    documentationUrl: "/TM_Car_Diagnostics_Documentation.pdf"
   },
   {
     title: "Study Buddy",
