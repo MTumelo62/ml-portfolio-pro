@@ -1,9 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import profileImage from "@/assets/profile.jpg";
 
 export const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Animated background gradient */}
@@ -41,9 +44,7 @@ export const Hero = () => {
               variant="hero" 
               size="lg" 
               className="group"
-              onClick={() => {
-                document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
-              }}
+              onClick={() => navigate('/projects')}
             >
               View Projects
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
