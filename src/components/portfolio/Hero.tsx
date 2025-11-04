@@ -24,7 +24,7 @@ export const Hero = () => {
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
               Tumelo Malebane
               <span className="block mt-2 text-3xl md:text-4xl text-muted-foreground font-normal">
-                IT Developer & Support Specialist
+                IT Developer & IT Support
               </span>
               <span className="block mt-2 bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--secondary))] bg-clip-text text-transparent">
                 Building Innovative Solutions
