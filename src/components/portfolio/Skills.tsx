@@ -16,7 +16,7 @@ const skillCategories = [
   {
     title: "AI & Automation",
     icon: Brain,
-    skills: ["Google AI", "ChatGPT", "Machine Learning", "Automation Tools"]
+    skills: ["AI Tools", "Machine Learning", "Automation Tools"]
   },
   {
     title: "IT Support",
