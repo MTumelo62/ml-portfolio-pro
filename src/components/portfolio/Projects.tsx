@@ -15,7 +15,7 @@ const projects = [
     title: "Study Buddy",
     description: "Educational platform leveraging AI to enhance learning experiences and study efficiency",
     image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
-    technologies: ["AI Tools", "ChatGPT", "Web Development", "Education"],
+    technologies: ["AI Tools", "Web Development", "Education"],
     githubUrl: "https://github.com/MTumelo62",
     liveUrl: "https://ai-study-buddyv2-0.vercel.app/",
     documentationUrl: "/AI_Study_Buddy_Technical_Documentation.pdf"
