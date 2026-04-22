@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Globe, Code, Brain, Wrench } from "lucide-react";
+import { Globe, Code, Brain, Wrench, Users } from "lucide-react";
 
 const skillCategories = [
   {
@@ -22,6 +22,11 @@ const skillCategories = [
     title: "IT Support",
     icon: Wrench,
     skills: ["Technical Support", "Network Configuration", "Troubleshooting"]
+  },
+  {
+    title: "Soft Skills",
+    icon: Users,
+    skills: ["Communication", "Time Management", "Problem Solving", "Teamwork"]
   }
 ];
 
