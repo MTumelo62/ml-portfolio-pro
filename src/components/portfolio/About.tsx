@@ -68,7 +68,7 @@ export const About = () => {
                 </p>
                 <p className="text-lg leading-relaxed">
                   I'm passionate about leveraging modern technologies including HTML5, CSS, WordPress, JavaScript, Python, 
-                  and Java, alongside AI tools like Google AI and ChatGPT to create innovative solutions and provide 
+                  and Java, alongside AI tools to create innovative solutions and provide 
                   excellent technical support.
                 </p>
               </div>
