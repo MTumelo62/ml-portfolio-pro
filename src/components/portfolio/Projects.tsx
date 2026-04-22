@@ -1,4 +1,5 @@
 import { ProjectCard } from "./ProjectCard";
+import kumonTechImage from "@/assets/kumon-tech.jpg";
 
 const projects = [
   {
@@ -22,7 +23,7 @@ const projects = [
   {
     title: "Kumon Tech",
     description: "Cyber security and web development services delivering secure digital solutions",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+    image: kumonTechImage,
     technologies: ["Cyber Security", "Web Development", "IT Services"],
     githubUrl: "https://github.com/MTumelo62",
     liveUrl: "http://kumontech.co.za/"
