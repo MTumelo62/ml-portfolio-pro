@@ -4,6 +4,11 @@ import { Globe, Code, Brain, Wrench, Users } from "lucide-react";
 
 const skillCategories = [
   {
+    title: "Soft Skills",
+    icon: Users,
+    skills: ["Communication", "Time Management", "Problem Solving", "Teamwork"]
+  },
+  {
     title: "Web Development",
     icon: Globe,
     skills: ["HTML5", "CSS", "WordPress"]
@@ -22,11 +27,6 @@ const skillCategories = [
     title: "IT Support",
     icon: Wrench,
     skills: ["Technical Support", "Network Configuration", "Troubleshooting"]
-  },
-  {
-    title: "Soft Skills",
-    icon: Users,
-    skills: ["Communication", "Time Management", "Problem Solving", "Teamwork"]
   }
 ];
 
