@@ -20,6 +20,14 @@ const projects = [
     documentationUrl: "/AI_Study_Buddy_Technical_Documentation.pdf"
   },
   {
+    title: "Kumon Tech",
+    description: "Technology services website offering IT solutions and digital services",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    technologies: ["Web Development", "IT Services", "Business Website"],
+    githubUrl: "https://github.com/MTumelo62",
+    liveUrl: "http://kumontech.co.za/"
+  },
+  {
     title: "Swift Analysis Tool",
     description: "Advanced data analysis platform for quick insights and comprehensive reporting",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
